@@ -1,5 +1,5 @@
 /* eslint-disable import/no-cycle */
-import { signIn, loginGoogle } from '../lib/firebase.js';
+import { signIn, loginGoogle } from '../../docs/lib/firebase.js';
 // eslint-disable-next-line import/no-cycle
 import { onNavigate } from '../main.js';
 

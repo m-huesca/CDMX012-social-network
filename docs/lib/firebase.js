@@ -56,9 +56,7 @@ export const signIn = (email, password) => {
     .catch((error) => {
       const errorCode = error.code;
       if (errorCode === 'auth/wrong-password') {
-        alert(
-          'Tu contraseña es incorrecta, intenta de nuevo o da click en "Olivde mi contraseña"'
-        );
+        alert('Tu contraseña es incorrecta, intenta de nuevo o da click en "Olivde mi contraseña"');
       }
       if (errorCode === 'auth/invalid-email') {
         alert('Por favor ingresa un correo válido');

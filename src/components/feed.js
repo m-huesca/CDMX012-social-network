@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-cycle
 import { onNavigate } from '../main.js';
-import { templatePost } from './post.js.js';
+import { templatePost } from './post.js';
 
 export const feed = () => {
   const feedView = document.createElement('div');
